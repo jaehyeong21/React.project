@@ -1,0 +1,45 @@
+body{
+  background-color : black;
+}
+
+.App{
+  border-radius : 10px;
+  background-color : pink;
+  width : 25vw;
+  height : 50vh;
+}
+
+.App__number{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  width : 25vw;
+  height : 35vh;
+  font-size : 100px;
+}
+
+.App__button{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  width : 25vw;
+  height : 15vh;
+}
+
+.App__button__text{
+  font-size : 20px;
+  width : 120px;
+  height : 35px;
+  background-color : pink;
+  border : solid 1px;
+}
+
+
+
+.App__box{
+  width : 100vw;
+  height : 100vh;
+  display : flex;
+  justify-content : space-evenly;
+  align-items : center;
+}
