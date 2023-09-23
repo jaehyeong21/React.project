@@ -1,0 +1,31 @@
+
+main{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  width : 100vw;
+  height : 100vh;
+  background-color : gray;
+}
+
+.main__Product__header{
+  color : pink;
+  font-weight : bold;
+}
+
+.main__Product{
+  background-color : white;
+  width : 85vw;
+  height : 85vh;
+  display : flex;
+  border-radius : 20px;
+  border : solid 2px pink;
+  flex-direction : column;
+  align-items : center;
+}
+
+/* .Product__box{
+  display : flex;
+  flex-direction  : column;
+  align-items : center;
+} */
