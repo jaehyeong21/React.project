@@ -1,5 +1,6 @@
 import "./App.css";
 
+//구조분해 할당 
 function App({name, job, img, cardColor}) {
   return(
     <div>

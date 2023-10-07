@@ -6,8 +6,8 @@ function Add({button__name}){
 
   const Add__number = () =>{
   setNumber(number+1);
-  };
-
+  }
+  
   return(
     <div className = "App"> 
       <div className = "App__number">{number}
